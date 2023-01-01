@@ -88,8 +88,8 @@ export default function App() {
 
   return (
     <div className='app'>
+      <h1 style={{textAlign: 'center'}}>List items</h1>
       <form onSubmit={onSubmitForm}>
-      <h1>Write somo text to add</h1>
         <input type="text" placeholder='...' id='input-item' required />
         <input type="submit" value="Save element" id='submit-btn' />
       </form>
